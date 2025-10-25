@@ -18,7 +18,11 @@ DVWA
     - here you should see the DVWA directory listed
     -try navigating to http://localhost, you should be greeted by a page not discovered page, this is because by default the apache server in which DVWA runs on has not been started. 
 -run sudo service apache2 start
-  - renavigate back to http://localhost, and you should see the following page 
+  - renavigate back to http://localhost, and you should see the following page. Ensure to use http and not https as it will cause issues
+-if you try to navigate to the source folder of DVWA, you should be greeted by a error message reagrding the config file needing to to copied to another file, run the following:
+  - cd /var/www/html/DVWA 
+  - cp config/config.inc.php.dist config/config.inc.php
+  - service mariadb start 
 
 
 Juice-Shop
