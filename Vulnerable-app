@@ -14,8 +14,18 @@ Quick start
 DVWA
 1. Clone these repos:
   -  git clone https://github.com/digininja/DVWA.git
+  - cd /var/www/html
+    - here you should see the DVWA directory listed
+    -try navigating to http://localhost, you should be greeted by a page not discovered page, this is because by default the apache server in which DVWA runs on has not been started. 
+-run sudo service apache2 start
+  - renavigate back to http://localhost, and you should see the following page 
+
 
 Juice-Shop
 1. Clone these repos:
   -  git clone https://github.com/juice-shop/juice-shop.gitkali
+2. run the follow commands:
+  - cd juiceshop
+  - sudo npm install
+  - sudo npm start 
 
