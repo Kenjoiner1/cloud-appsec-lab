@@ -1,1 +1,21 @@
+DVWA & OWASP Juice Shop
+
+Description:
+These applications provide a lightweight, safe playground for learning web-app security, testing scanners, and practicing exploitation techniques. Includes Damn Vulnerable Web App (DVWA) and OWASP Juice Shop. For training only — never expose these to production or the public internet.
+
+What’s included
+
+DVWA — classic PHP/MySQL vulnerable app for learning common web flaws (SQLi, XSS, CSRF, file upload, etc.).
+OWASP Juice Shop — modern intentionally vulnerable Node.js app that covers a broad range of vulnerabilities and challenge-based learning.
+
+
+Quick start
+
+DVWA
+1. Clone these repos:
+  -  git clone https://github.com/digininja/DVWA.git
+
+Juice-Shop
+1. Clone these repos:
+  -  git clone https://github.com/juice-shop/juice-shop.gitkali
 
